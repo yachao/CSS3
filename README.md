@@ -1,8 +1,10 @@
 # CSS3
 DEMOS ABOUT
 
-CSS3 Transform
+### CSS3 Transform
 transform（变形） transition（转换） animation（动画）
+```css
+transform（变形） transition（过度转换） animation（动画）
 transform: none | <transform-function> [<transform-function>]*
 transform: rotate | scale | skew | translate | matrix | rotate3d | scale3d | translate3d(tx,ty,tz) | matrix3d | perspective
 
@@ -11,7 +13,8 @@ transform-origin: [<percentage> | <length> | left | center | right | top | botto
 (2)transform-origin:right
 (3)transform-origin(25%,75%)
 
-FLEXBOX
+### FLEXBOX
+```css
 display: flex | inline-flex
 flex-flow: <flex-direction> <flex-wrap>
      <flex-direction>    row | row-reverse | column | column-reverse
