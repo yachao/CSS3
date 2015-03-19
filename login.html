@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="main.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+	<img class="bg" src="img/bg.jpg" />
+	<div class="wrap">
+		<a id="avatar" href="">
+			<img src="img/avatar1.jpg" />
+		</a>
+		<div id="local_info">
+			<span>3:00 PM</span><br />
+			<span>26° SUZHOU</span>
+		</div>
+		<ul id="opt_list">
+			<li><a href="http://zcblog.net/">BLOG</a></li>
+			<li><a href="http://zcblog.net/about/">ABOUT</a></li>
+			<li><a href="http://zcblog.net/album/">ALBUM</a></li>
+		</ul>
+	</div>
+	
+	<script>
+        document.getElementById('local_info').className = 'start';
+        document.getElementById('opt_list').className = 'start';
+        document.getElementById('avatar').className = 'start';
+        document.body.className = 'start';
+        window.onload = function() {
+            document.body.className = 'go';
+        };
+    </script>
+</body>
+</html>
